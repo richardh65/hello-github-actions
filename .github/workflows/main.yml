@@ -10,3 +10,10 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+          MY_OTHER_NAME: "Lisa"
+      
+      - name: debug
+        run: |
+          ls -la
+          pwd
+    
